@@ -1,0 +1,35 @@
+*::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container{
+    justify-content: center;
+}
+.header-navigation{
+    position: fixed;
+    top: 25px;
+}
+.hero{
+    padding: 60px 16px 155px;
+    background-image: url(./images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: 0;
+    background-color: #333;
+
+}
+h1{
+    color: #fff;
+}
+.hero-text{
+    font-size: 10px;
+    color: #fff;
+}
+.Link{
+    color: #fff;
+}
+.Link:hover{
+
+}
